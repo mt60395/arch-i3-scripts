@@ -1,11 +1,11 @@
-# arch-i3-scripts
+# arch-scripts
 ## Description
 
-These are shell scripts for Arch GNU/Linux and i3wm.
+These are my shell scripts for Arch GNU/Linux.
 
-- chmod: Makes the other files executable
+- main: Installs applications I use with Window Managers
 
-- main: Installs applications I use
+- kde: Installs applications I used to use for KDE
 
 - zoom: Installs a client for zoom.us
 
@@ -13,14 +13,18 @@ These are shell scripts for Arch GNU/Linux and i3wm.
 
 - reflector: Refreshes the mirror list (United States) for pacman
 
-- xournal: Installs xournal, a tool to draw on PDFs.
-
 - masterpdfeditor-free: PDF editor
 
+- pfetch: System information tool
+
+- skype: Installs Skype for Linux
+
+- nvidia: Installs NVIDIA drivers
+
 ## Installation
-    
-    chmod +x chmod.sh
 
-    ./chmod.sh
+Clone the repository and `cd` into it.
 
-Proceed to execute the scripts that you wish to run.
+## Usage
+
+    sh *scriptname*.sh
