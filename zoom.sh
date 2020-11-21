@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 git clone https://aur.archlinux.org/zoom.git
 cd zoom
 makepkg -si

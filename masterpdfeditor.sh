@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 git clone https://aur.archlinux.org/masterpdfeditor-free.git
 cd masterpdfeditor-free
 makepkg -si

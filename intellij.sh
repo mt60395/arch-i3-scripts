@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 git clone https://aur.archlinux.org/intellij-idea-community-edition-jre.git
 cd intellij-idea-community-edition-jre
 makepkg -si

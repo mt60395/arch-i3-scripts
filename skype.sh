@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 git clone https://aur.archlinux.org/pkgbase/skypeforlinux-stable-bin/
 cd skypeforlinux-stable-bin
 makepkg -si
